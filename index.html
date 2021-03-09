@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ball"></div>
+    <button class="blue" onclick="blue()">BLUE</button>
+    <button class="yellow" onclick="yellow()">YELLOW</button>
+    <button class="red" onclick="red()">RED</button>
+    <button class="green" onclick="green()">GREEN</button>
+    <button class="white" onclick="white()">RESET</button>
+<script>
+function red() {
+    document.getElementById("ball").style.backgroundColor = "#ff4d4d";
+}
+function yellow() {
+    document.getElementById("ball").style.backgroundColor = "#fffd4d";
+}
+function blue() {
+    document.getElementById("ball").style.backgroundColor = "#439fff";
+}
+function green() {
+    document.getElementById("ball").style.backgroundColor = "#72ff4d";
+}
+function white() {
+    document.getElementById("ball").style.backgroundColor = "#fff";
+}
+</script>
+</body>
+</html>
